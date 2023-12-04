@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Akshat Arya Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src = "js/nav-menu.js"></script>
+
+</head>
+    <body>
+        <a href = "#main" class = "skip"> Skip to main content </a>
+        <main id = "main">
+            <div class="topnav">
+                <a href="#main" class="active">Menu</a>
+                <div id="nav-content">
+                  <a href="#section1" onclick="toggleNav()">Home</a>
+                  <a href="#section2" onclick="toggleNav()">About Me</a>
+                  <a href="#section3" onclick="toggleNav()">Projects</a>
+                  <a href="#section4" onclick="toggleNav()">Coursework</a>
+                </div>
+
+                <a aria-label="Navigation hamburger icon" href="javascript:void(0);" class="icon" onclick="toggleNav()">
+                  <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            
+            <div id="section1" class="section">
+                <div>
+                    <h1 class="sec-title">
+                        Akshat Arya
+                    </h1>
+                </div>
+                <div class = "profile-picture">
+                    <img src = "images/profile.jpeg" alt = "Akshat Arya Profile Picture">
+                </div>
+            </div>
+
+            <div id="section2" class="section">
+                <div class="text-wr">
+                    <h1 class="title">About Me</h1>
+                    <h2>My name's Akshat Arya. I'm a sophomore in the College of Engineering at the University of Michigan and I'm studying Computer Science, with interests in cybersecurity and AI. My interests outside of school include music, video games, and philosophy.</h2>
+                </div>
+            </div>
+            
+            <div id="section3" class="section">
+                <div>
+                    <h1 class="projects-title">Projects</h1>
+                    <ul id = "project-list">
+                        <li><a href = "https://devpost.com/software/motionsurfer">Motion Surfer: Enjoy an old classic in a whole new way</a></li>
+                        <li>Optimizing a Domino's franchise using industrial engineering and simulations</li>
+                        <li>3D maze solver using depth-first and breadth-first search</li>
+                        <li>Bank wire transfer simulator</li>
+                        <li>Implementing heuristics and optimal solutions to the Traveling Salesman Problem</li>
+                    </ul>
+
+                    <iframe id = "yt-video" src="https://www.youtube.com/embed/5K-aHlbBg20?si=8mvIP9hWT1MmhwYq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div id="section4" class="section">
+                <div class="text-wr">
+                    <h1 class="title">Coursework</h1>
+                    <div class="grid">
+                        <div class="item_a"><h2>Data Structures and Algorithms</h2></div>
+                        <div class="item_b"><h2>Programming and Introductory Data Structures</h2></div>
+                        <div class="item_c"><h2>Web Design, Development, and Accessibility</h2></div>
+                        <div class="item_d"><h2>Discrete Mathematics</h2></div>
+                        <div class="item_e"><h2>Multivariable and Vector Calculus</h2></div>
+                        <div class="item_f"><h2>Calculus Based Physics (Mechanics and E&M)</h2></div> 
+                  </div>
+                </div>
+            </div>
+        </main>  
+    </body>
+</html>
